@@ -37,10 +37,16 @@
                             <a class="nav-link" href="ex2.php">EX2</a>
                         </li>
                         <li>
-                            <a class="nav-link" href="#">EX3</a>
+                            <a class="nav-link" href="ex3.php">EX3</a>
                         </li>
                         <li>
                             <a class="nav-link" href="#">EX4</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">EX5</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">EX6</a>
                         </li>
                     </ul>
                 </div>

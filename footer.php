@@ -42,6 +42,15 @@
                                 <img class="socialicon" src="./img/Instagram_icon.png" alt="Instagram Icon">
                             </a>
                         </li>
+                        <li>
+                        <?php
+                            $filePath = __FILE__;
+                            $filename = basename($filePath);
+                            $lastModifiedTime = filemtime($filePath);
+                            $formattedDateTime = date("F j, Y H:i:s", $lastModifiedTime);
+                            echo "<p>Last modified: $formattedDateTime ($filename)</p>";
+                            ?>
+                        </li>
                         <!-- Add more social icons as needed -->
                     </ul>
                 </div>
